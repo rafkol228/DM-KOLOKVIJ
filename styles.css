@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('stranice/slike/background.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    overflow-y: auto; 
+}
+
+
+.custom-font {
+    font-family: 'RafaelaKolovrat', sans-serif;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+header, main, nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+main img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.grid-item {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: px;
+    maragin: 5px;
+    text-align: center;
+}
+
+.exercise-image {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.exercise-video {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 10px;
+ }

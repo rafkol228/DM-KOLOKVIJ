@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video projekt - Rafaela Kolovrat</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @font-face {
+            font-family: 'RafaelaKolovrat';
+            src: url('RafaelaKolovrat.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-image: url('stranice/slike/background.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .custom-font {
+            font-family: 'RafaelaKolovrat', sans-serif;
+        }
+
+        .nav-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .nav-list li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .nav-list a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        .nav-list a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .content video {
+            max-width: 100%;
+			max-height: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .content p {
+            text-align: left;
+        }
+		
+		 @media (min-width: 600px) {
+            .content video {
+                max-height: 400px; 
+            }
+		}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="custom-font">Rafaela Kolovrat</h1>
+        <h2>Kolegij Digitalni multimedij 1</h2>
+    </header>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="o_meni.html">O meni</a></li>
+            <li><a href="vjezbe.html">Vježbe</a></li>
+            <li><a href="video.html">Video</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <h2>Video projekt: Reklama za klizaljke</h2>
+        <video controls>
+            <source src="stranice/videi/rafaela_kolovrat_projektni zadatak 3.mp4" type="video/mp4">
+            Vaš preglednik ne podržava HTML5 video.
+        </video>
+        <p>
+            Ovaj video projekt je reklama za Edea Overture klizaljke koja prikazuje elegantnost i slobodu klizanja. 
+            Korištene tehnike obrade videa uključuju:
+            <ul>
+                <li><strong>Trimanje i spajanje:</strong> Precizno trimanje video klipova i njihovo spajanje kako bi se postigla glatka naracija.</li>
+                <li><strong>Dodavanje glazbe:</strong> Sinkronizacija dinamične glazbe koja prati ritam i pokrete.</li>
+                <li><strong>Efekti prijelaza:</strong> Uporaba efekata prijelaza između scena kako bi se postigla veća vizualna privlačnost.</li>
+                <li><strong>Tekst i grafike:</strong> Dodavanje tekstualnih elemenata i grafika za isticanje ključnih informacija o klizaljkama.</li>
+            </ul>
+        </p>
+    </main>
+</body>
+</html>
